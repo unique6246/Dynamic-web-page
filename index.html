@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMIT Hackathon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            padding: 1rem 2rem;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .schedule, .registration, .contact {
+            margin: 2rem 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        label, input, textarea {
+            margin: 0.5rem 0;
+        }
+        input, textarea {
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        .button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NMIT Hackathon 2024</h1>
+    <p>Join us for an exciting 24-hour coding event!</p>
+</header>
+
+<main>
+    <section class="about">
+        <h2>About the Hackathon</h2>
+        <p>Welcome to the NMIT Hackathon 2024! This event brings together the brightest minds to innovate, create, and develop solutions to real-world problems. Participants will have 24 hours to work on their projects, with mentors and resources available to assist.</p>
+    </section>
+
+    <section class="schedule">
+        <h2>Event Schedule</h2>
+        <ul>
+            <li><strong>Day 1:</strong></li>
+            <ul>
+                <li>10:00 AM - Check-in & Breakfast</li>
+                <li>11:00 AM - Opening Ceremony</li>
+                <li>12:00 PM - Hacking Begins</li>
+                <li>1:00 PM - Lunch</li>
+                <li>6:00 PM - Dinner</li>
+            </ul>
+            <li><strong>Day 2:</strong></li>
+            <ul>
+                <li>8:00 AM - Breakfast</li>
+                <li>12:00 PM - Hacking Ends</li>
+                <li>1:00 PM - Project Demos</li>
+                <li>3:00 PM - Closing Ceremony & Awards</li>
+            </ul>
+        </ul>
+    </section>
+
+    <section class="registration">
+        <h2>Registration</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="college">College:</label>
+            <input type="text" id="college" name="college" required>
+            
+            <label for="team">Team Members (if any):</label>
+            <textarea id="team" name="team" rows="4"></textarea>
+            
+            <button type="submit" class="button">Register</button>
+        </form>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>For any queries, please contact:</p>
+        <p>Email: hackathon@nmit.ac.in</p>
+        <p>Phone: +91 12345 67890</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 NMIT College. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
